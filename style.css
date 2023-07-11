@@ -36,8 +36,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #C3C9E9;
+    color: #8B8982;
     transform: scale(1.1);
+}
+
+nav a:visited {
+    color: #6C91C2;
 }
 
 .profile-photo {
