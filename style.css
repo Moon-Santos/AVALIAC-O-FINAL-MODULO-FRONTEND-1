@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-left {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    background-color: #373F47;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #AAABBC;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #8B8982;
+    transform: scale(1.1);
+}
+
+nav a:visited {
+    color: #6C91C2;
+}
+
+.profile-photo {
+    height: 175px;
+    border-radius: 50%;
+    border: solid 5px #8B8982;
+}
+
+.container-right {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.about-me h1 {
+    font-size: 56px;
+    color: #373F47;
+    margin-bottom: 10px;
+}
+
+.about-me span {
+    color: #6C91C2;
+}
+
+.about-me p {
+    color: #373F47;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text-about {
+    display: flex;
+    text-transform: uppercase;
+    gap: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text-about address {
+    color: #373F47;
+    font-weight: 500;
+}
+
+.text-about a {
+    text-decoration: none;
+    color: #6C91C2;
+}
+
+.icons {
+    display: flex;
+    text-decoration: none;
+    gap: 25px;
+    margin-top: 14px;
+}
+
+.icons svg {
+    height: 40px;
+    border-radius: 10px;
+}
+
+.icons svg:hover {
+    transform: scale(1.1);
+}
