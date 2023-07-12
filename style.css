@@ -104,3 +104,14 @@ nav a:hover {
 .icons svg:hover {
     transform: scale(1.1);
 }
+
+.know-how {
+    color: #373F47;
+    font-size: 32px;
+    padding-left: 25px;
+    list-style: upper-alpha;
+}
+
+.know-how li::marker {
+    color: #6C91C2;
+}
