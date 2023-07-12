@@ -46,6 +46,10 @@ nav a:hover {
     border: solid 5px #8B8982;
 }
 
+.profile-photo:hover {
+    border: solid 5px #6C91C2;
+}
+
 .container-right {
     height: 100%;
     width: 75%;
