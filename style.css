@@ -119,3 +119,14 @@ nav a:hover {
 .know-how li::marker {
     color: #6C91C2;
 }
+
+.objectives {
+    list-style-type: disc;
+    font-size: 30px;
+    color: #373F47;
+    padding-left: 25px;
+}
+
+.objectives li::marker {
+    color: #6C91C2;
+}
