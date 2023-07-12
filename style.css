@@ -36,18 +36,18 @@ nav a {
 }
 
 nav a:hover {
-    color: #8B8982;
-    transform: scale(1.1);
-}
-
-nav a:visited {
     color: #6C91C2;
+    transform: scale(1.1);
 }
 
 .profile-photo {
     height: 175px;
     border-radius: 50%;
     border: solid 5px #8B8982;
+}
+
+.profile-photo:hover {
+    border: solid 5px #6C91C2;
 }
 
 .container-right {
@@ -107,4 +107,26 @@ nav a:visited {
 
 .icons svg:hover {
     transform: scale(1.1);
+}
+
+.know-how {
+    color: #373F47;
+    font-size: 32px;
+    padding-left: 25px;
+    list-style: upper-alpha;
+}
+
+.know-how li::marker {
+    color: #6C91C2;
+}
+
+.objectives {
+    list-style-type: disc;
+    font-size: 30px;
+    color: #373F47;
+    padding-left: 25px;
+}
+
+.objectives li::marker {
+    color: #6C91C2;
 }
